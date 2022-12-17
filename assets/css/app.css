@@ -1,0 +1,443 @@
+body{
+    font-family: 'Oswald';
+    background-color:red;
+}
+.text-end {
+  position: fixed;
+  text-align: end !important;
+  bottom: 30px;
+  padding: 20px;
+
+}
+strong {
+  background-color: black;
+  padding: 0px 10px;
+  color: white;
+}
+.strong-m {
+    background-color: red;
+    padding: 0px 10px;
+    color: white;
+}
+
+*{
+    transition:.3s;
+    }
+@media (max-width: 420px) {
+/* img-bg */
+#hipe{
+    background-image: url(../public/Full-mobile.png);
+    height: 100vh !important; 
+    background-position: bottom; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+/* tamanho de fonts */
+.title-m h1.h1-m.fs-1.mt-3.mb-2 {
+    font-size: 2rem !important;
+}
+h1.h1-m.fs-1 {
+    font-size: 2rem !important;
+}
+h1.h1-m.fs-1.mt-3.mb-2 {
+    font-size: 2rem !important;
+}
+/* butao */
+button.navbar-toggler {
+    padding-left: 175px;
+}
+a.btn.btn-whatsapp {
+    background: red;
+    color: white;
+   /* max-width: 90%;*/
+    margin: 20px auto;
+   /* width: 200px;*/
+}
+
+/* navaçao */
+.navbar-nav .nav-link {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+/* links */
+a:link {
+    /* font-size: 14px; */
+    text-decoration: none;
+}
+/* alinhamento */
+.navbar-expand-lg .navbar-nav{
+    align-items: flex-start !important;
+}
+.text-end {
+  position: fixed;
+    text-align: end !important;
+    bottom: 30px;
+    padding: 20px;
+  
+}
+.d-flex {
+    display: flex!important;
+    justify-content: space-between;
+}
+}
+
+@media (max-width: 768px) {
+   
+    nav.navbar{
+        position: absolute;
+        align-items: initial !important;
+    }
+    
+    
+     /* font */
+     h1.h1-m.fs-1.mt-3.mb-2 {
+         font-size: 2rem !important;
+     }
+     .text-ma {
+         font-size: 30px ;
+     }
+     /* bg-img */
+     #hipe {
+         background-image: url(../public/banner.png);
+         height: 100vh;
+        /* background-position: bottom;
+         background-repeat: no-repeat;
+         background-size: cover;*/
+     }
+    
+ 
+     /* alinhamento */
+    
+     .title-m.mt-3 {
+         padding-top: 40px !important;
+     }
+     .d-flex {
+         display: flex!important;
+         justify-content: space-between;
+     }
+     a.nav-link.text-white.btn-m {
+         background-color: white;
+         color: black !important;
+         border-radius: 30px;
+         padding-left: 38px;
+         padding-right: 38px;
+     }
+     .navbar {
+     color: #111;
+     }
+ 
+ }
+ 
+ @media (max-width:992px) {
+    .navbar-nav .nav-link {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .navbar-expand-lg .navbar-nav{
+        align-items: flex-start !important;
+    }
+.navbar-collapse[view="true"]{
+    left:  0% !important;
+    }
+    .collapse:not(.show) {
+    display: block !important ;
+    }
+    .collapse.navbar-collapse {
+    background-color: red;
+    color: #111;
+    position: absolute;
+    width: 80%;
+    left: -100%;
+    height: 100%;
+    top: 0;
+    z-index: 99999;
+    }
+    
+    .navbar {
+    position: absolute;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        padding-top: 17px;
+        background-color: red;
+        height: 100vh;
+        }
+        a.nav-link {
+            color: white(17 17 17) !important;
+            display: flex;
+            text-transform: uppercase;
+            padding: 20px 0;
+            width: 100%;
+        }
+        .navbar i {
+        margin-right: 25px;
+        }
+        a.btn i {
+        margin: 0 5px;
+        }
+        a.btn.btn-whatsapp {
+            background: red;
+            color: white;
+            /*max-width: 90%;*/
+            margin: 20px auto;
+          /*  width: 200px;*/
+        }
+        a.btn.btn-whatsapp-m {
+            background: rgb(0, 0, 0) !important;
+            color: white  !important;
+           /* max-width: 90%;*/
+            margin: 20px auto;
+           /* width: 200px;*/
+        }
+ }
+
+@media (min-width: 1024px) {
+
+/* botao-whatsapp */
+a.btn.btn-whatsapp {
+    background: red;
+    color: rgb(255, 255, 255);
+    /*max-width: 90%;*/
+    margin: 20px auto;
+  /*  width: 200px;*/
+}
+}
+ /* navgaçao */
+ nav{
+    position: absolute ;
+    width: 100%;
+}
+/* tamanho de font */
+.tit{
+    font-size: 76px !important;
+}
+/* alinhamento */
+div#navbarNavAltMarkup {
+    justify-content: end;
+}
+.d-flex {
+    display: flex!important;
+    justify-content: space-between;
+}
+   nav.navbar{
+        position: absolute;
+        align-items: end !important;
+    }
+.navbar-expand-lg .navbar-nav{
+    align-items: center;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 3.5rem;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+a.nav-link {
+    color: white;
+}
+
+#hipe {
+    background-image: url(../public/Full.png);
+    height: 95vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.navbar {
+    position: absolute;
+}
+div#galery-skills{
+    background-color: #111 !important;
+}
+footer{
+    background-color: #111 !important;
+}
+
+     
+/* font */
+.i-ma{
+    color: red;  
+    width: 30px;
+}
+.pry-m{
+    font-family: 'Oswald';
+    font-size: 40px;
+    text-transform: uppercase;
+    color: red;
+}
+.pry-ma{
+    font-family: 'Oswald';
+    font-size: 22px;
+    text-transform: uppercase;
+    background:red;
+}
+.text-main {
+  color: white ;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+}
+.text-m {
+    font-family: 'Oswald';
+    font-size: 40px;
+    text-transform: uppercase;
+}
+/* strong-title */
+.text-ma {
+    color:  red;
+    font-family: 'Oswald';
+    font-size: 50px;
+    text-transform: uppercase;
+}
+p.text-main {
+    /* font-size:2vw; */
+   font-family: 'Oswald';
+   font-size: 14px;
+   text-transform: uppercase; 
+}
+h5.card-title {
+   font-family: 'Oswald';
+    /* color: #C5A8B0; */
+    text-transform: uppercase;
+}
+h6.card-subtitle.mb-2{
+   font-family: 'Oswald';
+    text-transform: uppercase;
+    color:white !important;
+}
+h1.h1.fs-1.mb-2{
+    text-transform: uppercase;
+}
+h6.title-skills {
+    /* color: #181818; */
+    color: white;
+    background: transparent
+}
+p {
+    margin-top: 15px;
+    margin-bottom: 2rem;
+    font-size: 13px;
+}
+
+/* botoes */
+a.btn.btn-whatsapp-m {
+    background: red;
+    color: white !important;
+   /*max-width: 90%;
+    width: 200px;*/
+}
+/* botao */
+.btn {
+    font-size: 14px;
+} 
+button:focus:not(:focus-visible) {
+    outline: transparent;
+    display: contents;
+}
+.btn button:hover {
+    background-color:red !important;
+}
+.btn-primary-main:hover{
+    background-color: rgb(24, 24, 24) !important;
+    color: red !important;
+}
+.btn-primary-m {
+   /* padding: 10px 30px;*/
+    background-color: #111111;
+    color: white;
+}
+.btn-primary-main {
+    /*padding: 10px 30px;*/
+    background-color: black;
+    color: white;
+}
+/* links */
+.nav-link.text-white.btn-m {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255) !important;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+a {
+    font-family: 'Oswald';
+    font-size: 14px;
+    color: #111111;
+    text-decoration: underline;
+}
+a:link {
+    text-decoration: none !important;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  a:active {
+    text-decoration: underline;
+  }
+  /* margin */
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+.pt-5 {
+    padding-top: 5rem!important;
+}
+.pb-5 {
+    padding-bottom: 5rem!important;
+}
+/* skills */
+.progress-bar {
+    background-color: red;
+}
+.progress {
+    display: flex;
+    height: 2px;
+    background-color: #111111;
+}
+/* div#navbarNavDropdown {
+    justify-content: flex-end;
+} */
+nav.navbar.fixed-bottom.d-flex.d-block.d-sm-none{
+    background-color: rgb(0 0 0 / 45%)!important;
+}
+#habilidades .col.mt-2.mb-2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+img.img-fluid.log-m {
+    width: 80px;
+}
+.log {
+    width: 180px;
+}
+img.img-fluid.log-a {
+    width: 20px;
+}
+img.img-nav {
+    width: 60px;
+}
+
+
+div#navbarNavAltMarkup {
+    justify-content: end;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(248 249 250);
+    border-color: rgb(0 0 0 / 0%);
+}
+.title-m.mt-3 {
+    padding-top: 160px;
+}
+
